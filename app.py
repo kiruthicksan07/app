@@ -30,7 +30,7 @@ JOBS =[
 
 
 
-@app.route("/api/")
+@app.route("/")
 def home():
   return render_template('home.html' , jobs = JOBS)
 @app.route("/")
